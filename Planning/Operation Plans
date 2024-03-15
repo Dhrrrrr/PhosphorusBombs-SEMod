@@ -1,0 +1,5 @@
+- Change visuals of both the light, physical collision and smoke
+- Make smoke more realistic looking on the ground
+- Check for a possibly memory leak in the way the phosphorus is created as suggested by mod helpers
+- Balance damage of phosphorus balls and direct explosion
+- Add possible fire effect from phosphorus collision
