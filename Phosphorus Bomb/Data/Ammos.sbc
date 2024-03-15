@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Ammos>
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>Phosphorus</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>120</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>4000</MaxTrajectory>
+                <IsExplosive>false</IsExplosive>
+                <BackkickForce>0</BackkickForce>
+                <PhysicalMaterial>Phosphorus</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>0.1</ExplosiveDamageMultiplier>
+               <EndOfLifeEffect>Explosion_Phos</EndOfLifeEffect>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>300</MissileMass>
+                <MissileModelName>Models\PhosphorusBall.mwm</MissileModelName>
+                <MissileAcceleration>0</MissileAcceleration>
+                <MissileInitialSpeed>120</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileExplosionDamage>0</MissileExplosionDamage>
+                <MissileTrailEffect>Smoke_Phos</MissileTrailEffect>
+                <MissileHealthPool>6000</MissileHealthPool>
+                <MissileGravityEnabled>true</MissileGravityEnabled>
+                <MissileMinRicochetAngle>20</MissileMinRicochetAngle>
+                <MissileMaxRicochetAngle>80</MissileMaxRicochetAngle>
+                <MissileMinRicochetProbability>0.8</MissileMinRicochetProbability>
+                <MissileMaxRicochetProbability>1</MissileMaxRicochetProbability>
+                <MissileRicochetDamage>25</MissileRicochetDamage>
+            </MissileProperties>
+        </Ammo>
+
+    </Ammos>
+</Definitions>
